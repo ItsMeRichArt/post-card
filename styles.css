@@ -1,0 +1,79 @@
+
+/* Clases */
+/* Divs */
+.postcard {
+    background: white;
+    height: 350px;
+    width: 540px;
+    display: block;
+}
+.headDiv {
+    display: flex;
+}
+.titleDiv {
+    padding-left: 20px;
+    position: relative;
+    height: 10px;
+    flex: 1;
+}
+.imageDiv {
+    height: 80px;
+    width: 150px;
+    object-fit: cover;
+    padding-left: 60px;
+    flex: 1 1 0;
+}
+.bodyDiv {
+    display: flex;
+}
+.paragraphDiv {
+    height: 130px;
+    width: 300px;
+    padding-left: 10px;
+}
+.inputsDiv {
+    position: relative;
+    top: 20px;
+    padding-left: 40px;
+}
+.bottomDiv {
+    position: relative;
+    top: 50px;
+    left: 180px;
+}
+.buttonDiv {
+    height: 18px;
+    width: 130px;
+    border-style: ridge;
+    border-radius: 2px;
+    background-color: rgb(206, 204, 199);
+    text-decoration: none;
+    color: rgb(20, 19, 19);
+}
+.buttonDiv:hover {
+    background-color: rgb(142, 121, 116);
+}
+.buttonDiv:active {
+    background-color: rgb(206, 204, 199);
+}
+/* Fonts */
+.titleFont {
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+}
+.paragraphFont {
+    font-family: "Dancing Script", cursive;
+    font-size: 18px;
+}
+/* Elementos HTML */
+body {
+    background: black;
+}
+input {
+    border-radius: 5px;
+    border: 1px solid rgb(74, 93, 103);
+    outline: none;
+    background-color: whitesmoke;
+    height: 15px;
+    width: 150px;
+}
